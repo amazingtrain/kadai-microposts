@@ -38,6 +38,8 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'sqlite3' <-あとから追加
 gem 'mysql2'
 
+gem 'pry-byebug', group: :development
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
